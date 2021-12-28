@@ -15,3 +15,5 @@ a string representing the title of the site.
 
 `.Page.Title`
 the title for this page.
+
+Just place wrap them inside double curly braces e.g. `{{.Site.Tite}}`
