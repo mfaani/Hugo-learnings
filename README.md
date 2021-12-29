@@ -8,7 +8,7 @@ There are two type of pages:
 - list pages: used to show a a list of posts
 - single pages: used to show a single post
 
-You can access files in your html template files. See [here](https://gohugo.io/variables/). Examples: 
+You can access _variables_ in your html template files. See [here](https://gohugo.io/variables/). Examples: 
 
 `.Site.Title`
 a string representing the title of the site.
