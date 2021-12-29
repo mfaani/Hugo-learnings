@@ -16,6 +16,9 @@ a string representing the title of the site.
 `.Page.Title`
 the title for this page.
 
+`slug` is the last element of the _url_
+`url` is the entire _path_
+
 Just place wrap them inside double curly braces e.g. `{{.Site.Tite}}`
 
 ## Buying the domain
