@@ -17,3 +17,8 @@ a string representing the title of the site.
 the title for this page.
 
 Just place wrap them inside double curly braces e.g. `{{.Site.Tite}}`
+
+## Buying the domain
+- Netlify by default is HTTPS / SSL. 
+- NameCheap charges you a lot for SSL. However you can do it yourself using https://letsencrypt.org or https://httpsiseasy.com
+- NameCheap was cheaper than Netlify for domain registration. 
