@@ -21,7 +21,12 @@ the title for this page.
 
 Just place wrap them inside double curly braces e.g. `{{.Site.Tite}}`
 
+### If you cloned your Hugo project and project was using a submodule for the theme: 
+- See [here](https://stackoverflow.com/questions/60269683/how-to-fix-the-error-found-no-layout-file-for-html-for-page-in-hugo-cms) to learn how to pull in the the submodule. 
+
 ## Buying the domain
 - Netlify by default is HTTPS / SSL. 
 - NameCheap charges you a lot for SSL. However you can do it yourself using https://letsencrypt.org or https://httpsiseasy.com
 - NameCheap was cheaper than Netlify for domain registration. 
+
+
