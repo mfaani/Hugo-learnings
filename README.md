@@ -126,3 +126,20 @@ You could also pass a custom dict instead i.e. do:
 ```js
 {{ partial "header" (dict "myTitle" "customTitle" "myDate" "customDate" }}
 ```
+
+### Shouldn't there be a single `index.html` file across the entire site?
+
+Typically a web server will look for and serve index.html when the requested URL corresponds to a directory
+It’s a technique used by static site generators to make your urls end in a /
+The urls you’re making there are `/page/1/`, `/posts/firstpost/`, etc
+
+But then there's this other thing called: `_index.md` 
+
+_index.md has a special role in Hugo. It allows you to add front matter and content to your list templates. 
+You can create one _index.md for your homepage and one in each of your content sections, taxonomies, and taxonomy terms
+
+
+
+
+
+
