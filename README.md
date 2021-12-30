@@ -138,8 +138,4 @@ But then there's this other thing called: `_index.md`
 _index.md has a special role in Hugo. It allows you to add front matter and content to your list templates. 
 You can create one _index.md for your homepage and one in each of your content sections, taxonomies, and taxonomy terms
 
-
-
-
-
-
+See [here](https://gohugo.io/content-management/organization/) for more. 
