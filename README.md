@@ -4,6 +4,9 @@ Whatever I learned about Hugo
 💡You don't need to commit the `/public` folder. Public folder gets built by your webserver i.e. Netlify. 
 When you're doing local development, your own mac/laptop becomes the web-server hence it creates the rendered pages / static pages on your machines.
 
+
+## Syntax
+
 There are two type of pages: 
 - list pages: used to show a a list of posts
 - single pages: used to show a single post
@@ -19,7 +22,19 @@ the title for this page.
 `slug` is the last element of the _url_
 `url` is the entire _path_
 
+`.Content` is the content of the page. 
+
 Just place wrap them inside double curly braces e.g. `{{.Site.Tite}}`
+
+### How to make a loop. 
+e.g. loop over the pages of a certain section of the site: 
+
+```js
+{{.Content}} 
+{{ range .Pages }}
+
+{{end}}
+```
 
 ### If you cloned your Hugo project and project was using a submodule for the theme: 
 - See [here](https://stackoverflow.com/questions/60269683/how-to-fix-the-error-found-no-layout-file-for-html-for-page-in-hugo-cms) to learn how to pull in the the submodule. 
