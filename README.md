@@ -137,7 +137,9 @@ You could also pass a custom dict instead i.e. do:
 ```
 
 ### Shouldn't there be a single `index.html` file across the entire site?
+💡💡💡
 
+Thanks to Mark Rowe and Tom Insam: 
 Typically a web server will look for and serve index.html when the requested URL corresponds to a directory
 It’s a technique used by static site generators to make your urls end in a /
 The urls you’re making there are `/page/1/`, `/posts/firstpost/`, etc
@@ -146,5 +148,8 @@ But then there's this other thing called: `_index.md`
 
 _index.md has a special role in Hugo. It allows you to add front matter and content to your list templates. 
 You can create one _index.md for your homepage and one in each of your content sections, taxonomies, and taxonomy terms
+
+This is a convention, but it’s very widely followed. Many servers look for other files besides index.html (index.htm, index.php, etc). And you can often configure the server to not look for these files at all, but to instead generate a directory listing when a directory is requested.
+
 
 See [here](https://gohugo.io/content-management/organization/) for more. 
