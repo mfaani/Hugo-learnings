@@ -15,6 +15,18 @@ When you're doing local development, your own mac/laptop becomes the web-server 
 
 ## Syntax
 
+💡💡💡 Each Go Template gets a data object. In Hugo, each template is passed a ‍`Page`. In the below example, `.Title` is one of the elements accessible in that `Page` variable.
+
+With the `Page` being the default scope of a template, the `Title` element in current scope (`.` – “the dot") is accessible simply by the dot-prefix (.Title):
+
+💡
+
+> The custom variables need to be prefixed with `$`.
+
+```js
+{{ $address := "123 Main St." }}
+{{ $address
+
 There are two type of pages: 
 - list pages: used to show a a list of posts
 - single pages: used to show a single post
