@@ -96,7 +96,7 @@ Just dump it inside your `Data` folder and then you can access it just like:
 {{ range .Site.Data.fileName }}
 ```
 
-What does a `.` represent? 
+### What does a `.` represent? 
 
 So when you do: 
 
@@ -106,3 +106,11 @@ So when you do:
 You're passing everything accessible at that scope to the "header"
 
 You could have only passed on `.Site` or `.Page`...
+
+You could also pass a custom dict instead i.e. do: 
+
+
+
+```js
+{{ partial "header" (dict "myTitle" "customTitle" "myDate" "customDate" }}
+```
