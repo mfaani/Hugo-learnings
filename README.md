@@ -80,4 +80,12 @@ while inside `list.html` you'd do:
 
 and so on
 
+### How can I pass metadata about my content/post? 
+Hugo has something called [front matter](https://gohugo.io/content-management/front-matter/)
+
+At the top of a markdown, you can either add a _predefined_ variables or _user-defined_ variable. 
+
+You can access a predifned variable just by doing `{{ .predefined_variable_name }}`. 
+However for a user-define variable you'd have to do ` {{ .Params.user_defined_variable_name }}`
+
 
