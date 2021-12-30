@@ -88,4 +88,12 @@ At the top of a markdown, you can either add a _predefined_ variables or _user-d
 You can access a predifned variable just by doing `{{ .predefined_variable_name }}`. 
 However for a user-define variable you'd have to do ` {{ .Params.user_defined_variable_name }}`
 
+### How to access data from a json, toml, yml file? 
+
+Just dump it inside your `Data` folder and then you can access it just like: 
+
+```
+{{ range .Site.Data.fileName }}
+```
+
 
