@@ -7,6 +7,15 @@
 💡You don't need to commit the `/public` folder. Public folder gets built by your webserver i.e. Netlify. 
 When you're doing local development, your own mac/laptop becomes the web-server hence it creates the rendered pages / static pages on your machines.
 
+### Does Hugo have a webserver? 
+> Hugo provides its own webserver which builds and serves the site.
+While hugo server is high performance, it is a webserver with limited options.
+Many run it in production, but the standard behavior is for people to use it
+in development and use a more full featured server such as Nginx or Caddy.
+
+> 'hugo server' will avoid writing the rendered and served content to disk,
+preferring to store it in memory.
+
 
 
 ### If you cloned your Hugo project and project was using a submodule for the theme: 
