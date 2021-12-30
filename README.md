@@ -92,8 +92,17 @@ However for a user-define variable you'd have to do ` {{ .Params.user_defined_va
 
 Just dump it inside your `Data` folder and then you can access it just like: 
 
-```
+```js
 {{ range .Site.Data.fileName }}
 ```
 
+What does a `.` represent? 
 
+So when you do: 
+
+```js
+{{ partial "header" . }}
+```
+You're passing everything accessible at that scope to the "header"
+
+You could have only passed on `.Site` or `.Page`...
