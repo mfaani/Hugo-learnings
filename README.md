@@ -177,3 +177,15 @@ From [docs](https://gohugo.io/content-management/organization/#organization-of-c
         ├── first.md       // <- https://example.com/quote/first/
         └── second.md      // <- https://example.com/quote/second/
 ```
+
+### Content Types
+
+From [this blog post](https://www.jakewiesler.com/blog/hugo-directory-structure#content-types)
+
+Content types
+
+All markdown files that exist inside content/, whether at the root or in subdirectories, have a type associated to them. Hugo infers a markdown file's type in one of two ways:
+
+The name of the subdirectory that the file resides in
+The type variable defined in that file's front matter (optional)
+The former is pretty simple to understand. Hugo will initially deduce a markdown file's type by simply looking at the name of the subdirectory it is in. The file a-blog-post.md located at content/blog/a-blog-post.md will have the type blog. If it were located at content/posts/a-blog-post.md it would have the type posts.
