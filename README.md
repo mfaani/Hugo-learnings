@@ -159,3 +159,21 @@ This is a convention, but it’s very widely followed. Many servers look for oth
 
 
 See [here](https://gohugo.io/content-management/organization/) for more. 
+
+### Impact of directory structure on URLs
+From [docs](https://gohugo.io/content-management/organization/#organization-of-content-source)
+
+```
+.
+└── content
+    └── about
+    |   └── index.md  // <- https://example.com/about/
+    ├── posts
+    |   ├── firstpost.md   // <- https://example.com/posts/firstpost/
+    |   ├── happy
+    |   |   └── ness.md  // <- https://example.com/posts/happy/ness/
+    |   └── secondpost.md  // <- https://example.com/posts/secondpost/
+    └── quote
+        ├── first.md       // <- https://example.com/quote/first/
+        └── second.md      // <- https://example.com/quote/second/
+```
