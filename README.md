@@ -3,6 +3,11 @@
 - NameCheap charges you a lot for SSL. However you can do it yourself using https://letsencrypt.org or https://httpsiseasy.com
 - NameCheap was cheaper than Netlify for domain registration. 
 
+## Links on sections
+- https://moonbooth.com/hugo/sections/
+- https://tangenttechnologies.ca/blog/hugo-indexmd-vs-_indexmd/
+- https://bwaycer.github.io/hugo_tutorial.hugo/content/using-index-md/
+
 ## Hugo Repo setup
 💡You don't need to commit the `/public` folder. Public folder gets built by your webserver i.e. Netlify. 
 When you're doing local development, your own mac/laptop becomes the web-server hence it creates the rendered pages / static pages on your machines.
