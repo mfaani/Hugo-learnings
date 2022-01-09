@@ -7,6 +7,7 @@
 - https://moonbooth.com/hugo/sections/
 - https://tangenttechnologies.ca/blog/hugo-indexmd-vs-_indexmd/
 - https://bwaycer.github.io/hugo_tutorial.hugo/content/using-index-md/
+- https://www.youtube.com/watch?v=JqViM9YNvj4
 
 ## Hugo Repo setup
 💡You don't need to commit the `/public` folder. Public folder gets built by your webserver i.e. Netlify. 
