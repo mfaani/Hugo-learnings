@@ -7,6 +7,7 @@
 - https://moonbooth.com/hugo/sections/
 - https://tangenttechnologies.ca/blog/hugo-indexmd-vs-_indexmd/
 - https://bwaycer.github.io/hugo_tutorial.hugo/content/using-index-md/
+- https://www.jakewiesler.com/blog/hugo-directory-structure#content-types
 - https://www.youtube.com/watch?v=JqViM9YNvj4
 
 ## Hugo Repo setup
