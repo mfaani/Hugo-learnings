@@ -1,3 +1,7 @@
+## Hugo Google Analytics
+- http://cloudywithachanceofdevops.com/posts/2018/05/17/setting-up-google-analytics-on-hugo/
+- https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/
+
 ## Buying the domain
 - Netlify by default is HTTPS / SSL. 
 - NameCheap charges you a lot for SSL. However you can do it yourself using https://letsencrypt.org or https://httpsiseasy.com
