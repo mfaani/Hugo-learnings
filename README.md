@@ -1,3 +1,7 @@
+## Hugo 
+
+- Syntax highlighting: https://natearmstrong.net/posts/my-first-post/
+
 ## Hugo Google Analytics
 - http://cloudywithachanceofdevops.com/posts/2018/05/17/setting-up-google-analytics-on-hugo/
 - https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/
