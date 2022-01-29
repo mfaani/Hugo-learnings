@@ -198,3 +198,6 @@ All markdown files that exist inside content/, whether at the root or in subdire
 The name of the subdirectory that the file resides in
 The type variable defined in that file's front matter (optional)
 The former is pretty simple to understand. Hugo will initially deduce a markdown file's type by simply looking at the name of the subdirectory it is in. The file a-blog-post.md located at content/blog/a-blog-post.md will have the type blog. If it were located at content/posts/a-blog-post.md it would have the type posts.
+
+## Migrate from Medium to Hugo
+You can actually download all your posts. See https://www.sbuss.dev/post/moving-from-medium-to-hugo/
