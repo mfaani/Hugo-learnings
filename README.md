@@ -31,6 +31,8 @@ in development and use a more full featured server such as Nginx or Caddy.
 > 'hugo server' will avoid writing the rendered and served content to disk,
 preferring to store it in memory.
 
+### Hugo Date
+https://www.jerriepelser.com/blog/netlify-hugo-future-previews/
 
 
 ### If you cloned your Hugo project and project was using a submodule for the theme: 
